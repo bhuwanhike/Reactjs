@@ -20,7 +20,9 @@ const PortfolioSec = () => {
           I take pride in paying attention to the smallest details and making
           sure that my work is pixel perfect. I am excited to bring my skills
           and experience to help businesses achieve their goals and create a
-          strong online presence.
+          strong online presence. As I’m just starting out, here are a few
+          self-initiated and volunteer projects that reflect the kind of work I
+          can do for clients.
         </p>
         <div className="grid grid-cols-3 gap-8 p-10">
           <a href="https://microsoft-clone-fawn.vercel.app/" target="_blank">
@@ -36,9 +38,9 @@ const PortfolioSec = () => {
             <ImageCard image={calc} width={300} height={300} />
           </a>
         </div>
-        <button className="text-black bg-white rounded-full w-fit p-2 mx-auto ">
+        {/* <button className="text-black bg-white rounded-full w-fit p-2 mx-auto ">
           See more
-        </button>
+        </button> */}
       </div>
     </section>
   );

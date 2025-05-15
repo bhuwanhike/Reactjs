@@ -19,13 +19,7 @@ const Clients = () => {
           I have had the opportunity to work with a diverse group of companies.
           Some of the notable companies I have worked with includes
         </p>
-        <div className="grid grid-cols-2 gap-8 pr-10 pl-10 place-items-center xl:grid-cols-4">
-         
-            <CompanyCard image={walmart} />
-          <CompanyCard image={adobe} />
-          <CompanyCard image={microsoft} />
-          <CompanyCard image={facebook} />
-        </div>
+        
       </div>
     </section>
   );
