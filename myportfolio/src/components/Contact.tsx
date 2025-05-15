@@ -30,7 +30,7 @@ const Contact = () => {
     <>
       <section
         id="contact"
-        className="sm:pr-10 sm:pl-10 bg-gradient-to-b from-blue-600 to-blue-400 pb-8 xl:pr-50 xl:pl-50 2xl:pr-70 2xl:pl-70"
+        className="sm:pr-10 sm:pl-10 bg-gradient-to-b from-blue-700 to-blue-600 pb-8 xl:pr-50 xl:pl-50 2xl:pr-70 2xl:pl-70"
       >
         <div className="flex flex-col  gap-6 " id="contact">
           <h1 className="text-5xl text-white font-bold mx-auto mt-10">
