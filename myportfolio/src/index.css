@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@theme {
+  --breakpoint-xxs: 20rem;
+  --breakpoint-xs: 30rem;
+  --breakpoint-3xl: 120rem;
+}
 html,
 body,
 #root {
@@ -9,11 +14,12 @@ body,
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  overflow: visible;
 }
-body {
+#about {
   background: linear-gradient(
     to bottom,
-    hsla(212, 94%, 49%, 0.438),
-    rgb(66, 33, 59)
+    hsl(212, 100%, 17%),
+    rgba(44, 6, 214, 0.702)
   );
 }
